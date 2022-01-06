@@ -1,0 +1,130 @@
+/* Reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+html {
+    font-size: 55%;
+}
+
+body {
+    font: 1.6rem 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    line-height: 2.5rem;
+}
+
+h1,
+h2,
+h3,
+p,
+blockquote,
+figure,
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(16, 169, 240);
+}
+
+
+/* Thème */
+
+header {
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+header>h1 {
+    line-height: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #a19f9f;
+    font-size: 100%;
+    margin: 2rem auto;
+    max-width: 80.0rem;
+}
+
+header h1 a {
+    color: #222;
+}
+
+div img {
+    display: block;
+    width: 100%;
+}
+
+div {
+    max-width: 70.0rem;
+    background-color: #fafafa;
+    margin: 0 auto;
+}
+
+div h4 {
+    text-align: center;
+    line-height: 4rem;
+}
+
+div section h2 {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+div section h3 {
+    text-align: center;
+    padding: .7rem;
+    line-height: 4rem;
+    background-color: #222;
+    color: #ffffff;
+}
+
+div section h3 img {
+    display: initial;
+    width: initial;
+    vertical-align: -1rem;
+}
+
+div section:nth-child(1),
+div section:nth-child(2) {
+    display: block;
+    margin: 1rem auto;
+    padding: 2rem;
+    max-width: 37rem;
+    border: solid .1rem #ccc;
+}
+
+div section:nth-child(1) h2 {
+    color: rgb(24, 194, 9);
+}
+
+div section:nth-child(2) p {
+    text-align: center;
+    line-height: 4rem;
+}
+
+div section:nth-child(3) {
+    display: block;
+    border: solid .1rem #222;
+}
+
+.grid-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.download-app-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    max-width: 30rem;
+    margin: 0 auto;
+}
