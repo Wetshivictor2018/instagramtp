@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 html {
-    font-size: 62.5%;
+    font-size: 60.5%;
 }
 
 body {
@@ -47,12 +47,10 @@ input {
     transition: all 0.5rem ease-in-out;
 }
 
-button,
-select {
+button {
     border: 0;
     background-color: transparent;
     font-size: initial;
-    text-transform: capitalize;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
@@ -60,9 +58,19 @@ body {
     background-color: #FAFAFA;
 }
 
-.main-image {
-    margin-top: 45px;
-    margin-left: 250px;
+header h1 a {
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    color: rgb(47, 38, 70);
+}
+
+header>h1 {
+    line-height: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #a19f9f;
+    font-size: 100%;
+    margin-top: 2rem;
 }
 
 .main {
