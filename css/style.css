@@ -103,7 +103,7 @@ input[type="password"] {
     align-content: center;
     background-color: #FAFAFA;
     border: 1px solid rgb(212, 211, 211);
-    width: 90%;
+    width: 95%;
     font-size: 13px;
     font-weight: lighter;
     border-radius: 3px;
@@ -122,7 +122,7 @@ input[type="password"] {
     text-align: center;
     font-size: 14px;
     padding: 0.5em;
-    width: 90%;
+    width: 95%;
     margin-top: 10px;
     margin-left: 5px;
     font-weight: bold;
